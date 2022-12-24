@@ -1,5 +1,7 @@
 # freeCodeCamp Drum Machine
 
+Demo: https://adamcodes2843.github.io/Drum-Machine/
+
 ## Practiced React and Tailwind CSS
 
 This project was very beneficial for developing React skills. I learned a lot about components, state, props, event listeners, useEffect, and useful functions. I also used tailwind CSS for the first time! 
