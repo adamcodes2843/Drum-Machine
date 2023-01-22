@@ -83,7 +83,7 @@ function App() {
 
   return (
     <div className="h-screen w-screen bg-black grid place-items-center overflow-hidden">
-      <div id="drum-machine" className="md:w-11/12 w-7/12 max-w-5xl flex flex-col md:flex-row justify-center items-center text-white lg:text-8xl md:text-6xl text-4xl border-4 p-6 gap-8 rounded bg-gradient-to-br from-cyan-500 to-blue-500">
+      <div id="drum-machine" className="md:w-11/12 max-w-5xl flex flex-col md:flex-row justify-center items-center text-white lg:text-8xl text-6xl border-4 p-6 gap-8 rounded bg-gradient-to-br from-cyan-500 to-blue-500">
         <div className="drumButtonsGrid grid grid-rows-3 grid-cols-3 gap-2">
           <Drum play={play} sounds={sounds} deactivateAudio={deactivateAudio}/>
         </div>
